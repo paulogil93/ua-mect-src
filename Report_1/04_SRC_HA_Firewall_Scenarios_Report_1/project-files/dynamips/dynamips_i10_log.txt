@@ -1,0 +1,15 @@
+Apr 22 13:55:41.015 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 22 13:55:41.015 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49289.
+Apr 22 13:55:41.025 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 22 13:55:41.025 HYPERVISOR: exec_cmd: hypervisor working_dir /home/paulogil/GNS3/projects/04_SRC_HA_Firewall_Scenarios_Report_1/project-files/dynamips 
+Apr 22 13:55:41.025 GENERAL: working_dir=/home/paulogil/GNS3/projects/04_SRC_HA_Firewall_Scenarios_Report_1/project-files/dynamips
+Apr 22 13:55:41.026 HYPERVISOR: exec_cmd: ethsw create SW2 
+Apr 22 13:55:42.184 HYPERVISOR: exec_cmd: nio create_udp udp-5345b128-5c20-4a6b-92fe-48b17c8a6bb8 10081 127.0.0.1 10080 
+Apr 22 13:55:42.184 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-5345b128-5c20-4a6b-92fe-48b17c8a6bb8 
+Apr 22 13:55:42.202 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-5345b128-5c20-4a6b-92fe-48b17c8a6bb8 1 
+Apr 22 13:55:42.245 HYPERVISOR: exec_cmd: nio create_udp udp-76d518fa-865a-45e2-8d9a-532eae6cfca9 10084 127.0.0.1 10085 
+Apr 22 13:55:42.245 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-76d518fa-865a-45e2-8d9a-532eae6cfca9 
+Apr 22 13:55:42.262 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-76d518fa-865a-45e2-8d9a-532eae6cfca9 1 
+Apr 22 13:55:42.314 HYPERVISOR: exec_cmd: nio create_udp udp-4ffaf9da-3e96-465c-938a-ae5cfcd6c655 10086 127.0.0.1 10087 
+Apr 22 13:55:42.314 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-4ffaf9da-3e96-465c-938a-ae5cfcd6c655 
+Apr 22 13:55:42.322 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-4ffaf9da-3e96-465c-938a-ae5cfcd6c655 1 

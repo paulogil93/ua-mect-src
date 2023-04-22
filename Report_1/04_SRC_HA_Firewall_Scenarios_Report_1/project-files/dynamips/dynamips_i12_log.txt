@@ -1,0 +1,12 @@
+Apr 22 13:55:41.099 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 22 13:55:41.099 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60879.
+Apr 22 13:55:41.109 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 22 13:55:41.110 HYPERVISOR: exec_cmd: hypervisor working_dir /home/paulogil/GNS3/projects/04_SRC_HA_Firewall_Scenarios_Report_1/project-files/dynamips 
+Apr 22 13:55:41.110 GENERAL: working_dir=/home/paulogil/GNS3/projects/04_SRC_HA_Firewall_Scenarios_Report_1/project-files/dynamips
+Apr 22 13:55:41.111 HYPERVISOR: exec_cmd: ethsw create SWB 
+Apr 22 13:55:42.882 HYPERVISOR: exec_cmd: nio create_udp udp-04d657c5-33a4-4312-8985-c2109f213836 10109 127.0.0.1 10108 
+Apr 22 13:55:42.882 HYPERVISOR: exec_cmd: ethsw add_nio SWB udp-04d657c5-33a4-4312-8985-c2109f213836 
+Apr 22 13:55:42.888 HYPERVISOR: exec_cmd: ethsw set_access_port SWB udp-04d657c5-33a4-4312-8985-c2109f213836 1 
+Apr 22 13:55:42.944 HYPERVISOR: exec_cmd: nio create_udp udp-bdb6a617-6ed8-427e-b98b-7f4329157bbb 10111 127.0.0.1 10110 
+Apr 22 13:55:42.944 HYPERVISOR: exec_cmd: ethsw add_nio SWB udp-bdb6a617-6ed8-427e-b98b-7f4329157bbb 
+Apr 22 13:55:42.948 HYPERVISOR: exec_cmd: ethsw set_access_port SWB udp-bdb6a617-6ed8-427e-b98b-7f4329157bbb 1 

@@ -1,0 +1,14 @@
+[
+	{
+		"device_type": "vyos",
+		"ip": "10.1.14.1",
+		"username": "vyos",
+		"password": "vyos"
+	},
+	{
+		"device_type: "vyos",
+		"ip": "10.1.15.1",
+		"username": "vyos",
+		"password": "vyos"
+	}
+]

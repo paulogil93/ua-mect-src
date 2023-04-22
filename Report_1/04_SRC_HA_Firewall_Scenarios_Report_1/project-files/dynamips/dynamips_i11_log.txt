@@ -1,0 +1,12 @@
+Apr 22 13:55:41.055 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 22 13:55:41.055 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39771.
+Apr 22 13:55:41.064 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 22 13:55:41.064 HYPERVISOR: exec_cmd: hypervisor working_dir /home/paulogil/GNS3/projects/04_SRC_HA_Firewall_Scenarios_Report_1/project-files/dynamips 
+Apr 22 13:55:41.064 GENERAL: working_dir=/home/paulogil/GNS3/projects/04_SRC_HA_Firewall_Scenarios_Report_1/project-files/dynamips
+Apr 22 13:55:41.064 HYPERVISOR: exec_cmd: ethsw create SWA 
+Apr 22 13:55:42.763 HYPERVISOR: exec_cmd: nio create_udp udp-c9f85571-767c-411e-8d9c-c6f37fd7a74c 10103 127.0.0.1 10102 
+Apr 22 13:55:42.763 HYPERVISOR: exec_cmd: ethsw add_nio SWA udp-c9f85571-767c-411e-8d9c-c6f37fd7a74c 
+Apr 22 13:55:42.764 HYPERVISOR: exec_cmd: ethsw set_access_port SWA udp-c9f85571-767c-411e-8d9c-c6f37fd7a74c 1 
+Apr 22 13:55:42.820 HYPERVISOR: exec_cmd: nio create_udp udp-15da6824-22d9-4a85-b61f-153d48e55c38 10107 127.0.0.1 10106 
+Apr 22 13:55:42.820 HYPERVISOR: exec_cmd: ethsw add_nio SWA udp-15da6824-22d9-4a85-b61f-153d48e55c38 
+Apr 22 13:55:42.824 HYPERVISOR: exec_cmd: ethsw set_access_port SWA udp-15da6824-22d9-4a85-b61f-153d48e55c38 1 
