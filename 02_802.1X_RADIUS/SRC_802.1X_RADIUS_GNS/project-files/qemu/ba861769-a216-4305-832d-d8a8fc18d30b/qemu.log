@@ -1,0 +1,6 @@
+Start QEMU with /usr/bin/qemu-system-x86_64 -name RADIUS -m 512M -smp cpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/paulogil/GNS3/projects/02_SRC_802.1X_RADIUS/project-files/qemu/ba861769-a216-4305-832d-d8a8fc18d30b/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid ba861769-a216-4305-832d-d8a8fc18d30b -monitor tcp:127.0.0.1:39445,server,nowait -net none -device e1000,mac=0c:86:17:69:00:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10013,localaddr=127.0.0.1:10012
+
+Execution log:
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID.80000001H:ECX.svm [bit 2]
+qemu-system-x86_64: Gtk: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+qemu-system-x86_64: terminating on signal 15 from pid 5362 (/usr/share/gns3/gns3-server/bin/python)
