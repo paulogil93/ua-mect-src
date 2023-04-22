@@ -1,0 +1,4 @@
+Start QEMU with /usr/bin/qemu-system-x86_64 -name DMZServer-1 -m 512M -smp cpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/paulogil/GNS3/projects/03_SRC_Intro_Firewall/project-files/qemu/81226301-fd10-4b98-b82f-36be15f22d4b/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid 81226301-fd10-4b98-b82f-36be15f22d4b -monitor tcp:127.0.0.1:38451,server,nowait -net none -device e1000,mac=0c:22:63:01:00:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10013,localaddr=127.0.0.1:10012
+
+Execution log:
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID.80000001H:ECX.svm [bit 2]
