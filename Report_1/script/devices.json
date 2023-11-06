@@ -6,7 +6,7 @@
 		"password": "vyos"
 	},
 	{
-		"device_type: "vyos",
+		"device_type": "vyos",
 		"ip": "10.1.15.1",
 		"username": "vyos",
 		"password": "vyos"
